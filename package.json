@@ -1,6 +1,18 @@
 {
-	"devDependencies": {
-		"typescript": "^5.5.4",
-		"@types/node": "^22.2.0"
-	}
+  "name": "nodejs-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "start": "node ./dist/server.js"
+  },
+  "keywords": [],
+  "author": "Kei-K23",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/node": "^22.2.0"
+  }
 }
